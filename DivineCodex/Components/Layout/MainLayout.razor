@@ -1,27 +1,37 @@
 ﻿@inherits LayoutComponentBase
 @using MudBlazor
 
+<link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+
 <MudThemeProvider Theme="_theme" />
 <MudDialogProvider />
 <MudSnackbarProvider />
 <MudPopoverProvider />
 
 <MudLayout>
-    <MudAppBar Elevation="4" Color="Color.Dark" Class="app-bar">
+    <MudAppBar Elevation="4" Color="Color.Dark" Class="app-bar animated-gradient">
         <MudIconButton Icon="@Icons.Material.Filled.Menu"
                        Color="Color.Inherit"
                        Edge="Edge.Start"
                        OnClick="@ToggleDrawer"
-                       Class="mr-2" />
-        <MudText Typo="Typo.h5" Class="app-title">
-            <MudIcon Icon="@Icons.Material.Filled.Code" Class="mr-2" />
+                       Class="drawer-toggle mr-2 hover-scale" />
+        <MudText Typo="Typo.h5" Class="app-title pulse-animation">
+            <MudIcon Icon="@Icons.Material.Filled.Code" Class="mr-2 code-icon" />
             Code Bounty Hunter
         </MudText>
         <MudSpacer />
 
+        <MudTooltip Text="Toggle Dark/Light Mode">
+            <MudIconButton Icon="@(_isDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)"
+                           Color="Color.Inherit"
+                           OnClick="ToggleTheme"
+                           Class="theme-toggle hover-rotate" />
+        </MudTooltip>
+
         <MudMenu Icon="@Icons.Material.Filled.AccountCircle"
                  Color="Color.Inherit"
-                 Label="Profile">
+                 Label="Profile"
+                 Class="profile-menu hover-scale">
             <MudMenuItem>Profile</MudMenuItem>
             <MudMenuItem>Settings</MudMenuItem>
             <MudDivider />
@@ -29,35 +39,37 @@
         </MudMenu>
     </MudAppBar>
 
-    <MudDrawer @bind-Open="_drawerOpen" Elevation="1" Variant="@DrawerVariant.Mini" ClipMode="DrawerClipMode.Always">
+    <MudDrawer @bind-Open="_drawerOpen"
+               Elevation="1"
+               Variant="@DrawerVariant.Mini"
+               ClipMode="DrawerClipMode.Always"
+               Class="animated-drawer">
         <MudNavMenu>
-            <MudNavLink Href="/submit" Icon="@Icons.Material.Filled.Add" Class="submit-bounty-nav-link">
+            <MudNavLink Href="/" Icon="@Icons.Material.Filled.Home" Class="nav-link">
+                Dashboard
+            </MudNavLink>
+            <MudNavLink Href="/bounties" Icon="@Icons.Material.Filled.ListAlt" Class="nav-link">
+                Active Bounties
+            </MudNavLink>
+            <MudNavLink Href="/submit" Icon="@Icons.Material.Filled.Add" Class="nav-link">
                 Submit Bounty
             </MudNavLink>
-            <MudNavLink Href="/" Icon="@Icons.Material.Filled.Home" Class="nav-link">Dashboard</MudNavLink>
-            <MudNavLink Href="/bounties" Icon="@Icons.Material.Filled.ListAlt" Class="nav-link">Active Bounties</MudNavLink>
-            <MudNavLink Href="/leaderboard" Icon="@Icons.Material.Filled.EmojiEvents" Class="nav-link">Leaderboard</MudNavLink>
-            <MudNavLink Href="/stats" Icon="@Icons.Material.Filled.Analytics" Class="nav-link">Statistics</MudNavLink>
-            <MudNavLink Href="/xp-system" Icon="@Icons.Material.Filled.Loyalty" Class="nav-link">XP System</MudNavLink>
-            <MudNavLink Href="/chat" Icon="@Icons.Material.Filled.Chat" Class="nav-link">Real-Time Chat</MudNavLink>
-            <MudNavLink Href="/vip" Icon="@Icons.Material.Filled.Shield" Class="nav-link">VIP System</MudNavLink>
-            <MudNavLink Href="/admin" Icon="@Icons.Material.Filled.AdminPanelSettings" Class="nav-link">Admin Panel</MudNavLink>
-            <MudNavLink Href="/challenges" Icon="@Icons.Material.Filled.DirectionsRun" Class="nav-link">Daily/Weekly Challenges</MudNavLink>
-            <MudNavLink Href="/referral" Icon="@Icons.Material.Filled.Share" Class="nav-link">Referral System</MudNavLink>
-            <MudNavLink Href="/badges" Icon="@Icons.Material.Filled.Badge" Class="nav-link">Badges & Titles</MudNavLink>
-            <MudNavLink Href="/difficulty" Icon="@Icons.Material.Filled.Straighten" Class="nav-link">Difficulty-Based Bounties</MudNavLink>
-            <MudNavLink Href="/reward-pooling" Icon="@Icons.Material.Filled.Share" Class="nav-link">Reward Pooling</MudNavLink>
-            <MudNavLink Href="/reputation" Icon="@Icons.Material.Filled.Star" Class="nav-link">User Reputation System</MudNavLink>
+            <MudNavLink Href="/leaderboard" Icon="@Icons.Material.Filled.EmojiEvents" Class="nav-link">
+                Leaderboard
+            </MudNavLink>
+            <MudNavLink Href="/stats" Icon="@Icons.Material.Filled.Analytics" Class="nav-link">
+                Statistics
+            </MudNavLink>
         </MudNavMenu>
     </MudDrawer>
 
-    <MudMainContent Class="main-content">
+    <MudMainContent Class="main-content sliding-background">
         @Body
     </MudMainContent>
 
-    <MudAppBar Elevation="1" Color="Color.Dark" Bottom="true" Class="footer">
+    <MudAppBar Elevation="1" Color="Color.Dark" Bottom="true" Class="footer glow-effect">
         <MudContainer Class="d-flex justify-center align-center">
-            <MudText Typo="Typo.body2">
+            <MudText Typo="Typo.body2" Class="footer-text">
                 © 2024 Code Bounty Hunter | All Rights Reserved
             </MudText>
         </MudContainer>
@@ -66,8 +78,8 @@
 
 @code {
     private bool _drawerOpen = true;
-
-    private MudTheme _theme;
+    private bool _isDarkMode = true;
+    private MudTheme _theme = new MudTheme(); // Initialize it here
 
     protected override void OnInitialized()
     {
@@ -76,26 +88,16 @@
 
     private void SetupTheme()
     {
+        // Proper Palette and MudTheme setup
         _theme = new MudTheme
             {
-                PaletteDark = new PaletteDark
+                Palette = new Palette
                 {
-                    Primary = "#6200EE", // Purple accent color for primary elements
-                    Background = "#121212", // Dark black background
-                    Surface = "#1A1A1A", // Darker surface
-                    AppbarBackground = "#1C1C1C", // Darker app bar background
-                    DrawerBackground = "#1A1A1A", // Same dark surface for the drawer
-                    TextPrimary = "#E0E0E0", // Light gray text for readability
-                    TextSecondary = "#B0B0B0", // Slightly dimmer gray text for secondary content
-                    Divider = "#333333", // Darker dividers
-                    ActionDisabled = "#666666", // Disabled action color
-                },
-                PaletteLight = new PaletteLight
-                {
-                    Primary = "#6200EE",
-                    Background = "#F5F5F5", // Light background (can adjust if needed)
-                    Surface = "#FFFFFF",
-                    AppbarBackground = "#F0F0F0"
+                    Primary = Colors.Blue.Default,
+                    Secondary = Colors.Pink.Accent3,
+                    Background = Colors.Grey.Lighten5,
+                    Surface = Colors.Grey.Lighten3,
+                    AppbarBackground = Colors.Grey.Darken4
                 },
                 Typography = new Typography
                 {
@@ -111,15 +113,72 @@
     {
         _drawerOpen = !_drawerOpen;
     }
+
+    private void ToggleTheme()
+    {
+        _isDarkMode = !_isDarkMode;
+        SetupTheme();
+    }
 }
 
 <style>
+    /* Animated Gradient Background */
+    .animated-gradient {
+        background: linear-gradient(45deg, #1a73e8, #6a11cb, #2575fc);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+
+    /* Hover and Interaction Effects */
+    .hover-scale {
+        transition: transform 0.3s ease;
+    }
+
+        .hover-scale:hover {
+            transform: scale(1.1);
+        }
+
+    .hover-rotate {
+        transition: transform 0.4s ease;
+    }
+
+        .hover-rotate:hover {
+            transform: rotate(360deg);
+        }
+
+    /* Pulse Animation for Title */
+    .pulse-animation {
+        animation: pulse 2s infinite;
+    }
+
+    /* Sliding Background */
+    .sliding-background {
+        background: linear-gradient(270deg, #1a73e8, #6a11cb, #2575fc);
+        background-size: 600% 600%;
+        animation: slidingBackground 20s ease infinite;
+    }
+
+    /* Glow Effect */
+    .glow-effect {
+        box-shadow: 0 0 20px rgba(26, 115, 232, 0.5);
+    }
+
+    /* Navigation Link Hover */
+    .nav-link {
+        transition: all 0.3s ease;
+    }
+
+        .nav-link:hover {
+            transform: translateX(10px);
+            color: #1a73e8;
+        }
+
+    /* Main Content and Other Styles */
     .main-content {
         background-color: var(--mud-palette-background);
-        min-height: calc(100vh - 112px); /* Ensures content takes up full screen minus the app bar */
+        min-height: calc(100vh - 112px);
         padding: 20px;
-        margin-top: 64px; /* Add margin to push content below the app bar */
-        border-radius: 0px; /* Sharp edges */
+        transition: background-color 0.5s ease;
     }
 
     .app-bar {
@@ -132,64 +191,25 @@
         font-weight: 600;
     }
 
+    .code-icon {
+        animation: spin 4s linear infinite;
+    }
+
     .footer {
         height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 0.3s ease;
     }
 
-    /* Styling for nav link card-like effect */
-    .nav-link {
-        position: relative;
-        padding: 8px 16px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        border-radius: 0px; /* Sharp rectangular borders */
-        margin-bottom: 5px;
-        background-color: transparent;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    .footer-text {
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
     }
 
-        .nav-link:hover {
-            transform: translateX(15px);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .nav-link .mud-icon {
-            transition: transform 0.3s ease;
-        }
-
-        .nav-link:hover .mud-icon {
-            transform: translateX(5px);
-        }
-
-    /* Special styles for "Submit Bounty" link */
-    .submit-bounty-nav-link {
-        background-color: #FF9800; /* Orange color for visibility */
-        color: white;
-        font-weight: bold;
-        padding: 10px 20px;
-        border-radius: 0px; /* Sharp edges */
-        margin-bottom: 10px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-        .submit-bounty-nav-link:hover {
-            background-color: #FF5722; /* Darker orange on hover */
-            transform: scale(1.05); /* Slightly enlarge on hover */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        }
-
-    /* Prevent clipping when drawer is in mini mode */
-    .mud-drawer .mud-nav-link {
-        transition: none;
-    }
-
-    /* Adjust nav link appearance when drawer is collapsed */
-    .mud-drawer.mud-drawer-mini .nav-link {
-        padding-left: 10px;
+    /* Profile Menu */
+    .profile-menu {
+        margin-right: 20px;
     }
 </style>
