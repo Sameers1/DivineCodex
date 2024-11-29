@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4D32D0-332C-4683-B916-FFB21B2FF876}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4D32D0-332C-4683-B916-FFB21B2FF876}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4D32D0-332C-4683-B916-FFB21B2FF876}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4D32D0-332C-4683-B916-FFB21B2FF876}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4D32D0-332C-4683-B916-FFB21B2FF876}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD4D32D0-332C-4683-B916-FFB21B2FF876}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwC4AAACoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T01:04:27.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T01:00:16.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor*",
+              "RelativeToolTip": "DivineCodex\\Components\\Layout\\MainLayout.razor*",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T00:57:09.746Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,39 +1,195 @@
 ﻿@inherits LayoutComponentBase
+@using MudBlazor
 
-<MudThemeProvider />
-<MudPopoverProvider />
+<MudThemeProvider Theme="_theme" />
 <MudDialogProvider />
 <MudSnackbarProvider />
+<MudPopoverProvider />
+
 <MudLayout>
-    <MudAppBar Elevation="1">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
+    <MudAppBar Elevation="4" Color="Color.Dark" Class="app-bar">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu"
+                       Color="Color.Inherit"
+                       Edge="Edge.Start"
+                       OnClick="@ToggleDrawer"
+                       Class="mr-2" />
+        <MudText Typo="Typo.h5" Class="app-title">
+            <MudIcon Icon="@Icons.Material.Filled.Code" Class="mr-2" />
+            Code Bounty Hunter
+        </MudText>
         <MudSpacer />
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+
+        <MudMenu Icon="@Icons.Material.Filled.AccountCircle"
+                 Color="Color.Inherit"
+                 Label="Profile">
+            <MudMenuItem>Profile</MudMenuItem>
+            <MudMenuItem>Settings</MudMenuItem>
+            <MudDivider />
+            <MudMenuItem Color="Color.Error">Logout</MudMenuItem>
+        </MudMenu>
     </MudAppBar>
-    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
-        <NavMenu />
+
+    <MudDrawer @bind-Open="_drawerOpen" Elevation="1" Variant="@DrawerVariant.Mini" ClipMode="DrawerClipMode.Always">
+        <MudNavMenu>
+            <MudNavLink Href="/submit" Icon="@Icons.Material.Filled.Add" Class="submit-bounty-nav-link">
+                Submit Bounty
+            </MudNavLink>
+            <MudNavLink Href="/" Icon="@Icons.Material.Filled.Home" Class="nav-link">Dashboard</MudNavLink>
+            <MudNavLink Href="/bounties" Icon="@Icons.Material.Filled.ListAlt" Class="nav-link">Active Bounties</MudNavLink>
+            <MudNavLink Href="/leaderboard" Icon="@Icons.Material.Filled.EmojiEvents" Class="nav-link">Leaderboard</MudNavLink>
+            <MudNavLink Href="/stats" Icon="@Icons.Material.Filled.Analytics" Class="nav-link">Statistics</MudNavLink>
+            <MudNavLink Href="/xp-system" Icon="@Icons.Material.Filled.Loyalty" Class="nav-link">XP System</MudNavLink>
+            <MudNavLink Href="/chat" Icon="@Icons.Material.Filled.Chat" Class="nav-link">Real-Time Chat</MudNavLink>
+            <MudNavLink Href="/vip" Icon="@Icons.Material.Filled.Shield" Class="nav-link">VIP System</MudNavLink>
+            <MudNavLink Href="/admin" Icon="@Icons.Material.Filled.AdminPanelSettings" Class="nav-link">Admin Panel</MudNavLink>
+            <MudNavLink Href="/challenges" Icon="@Icons.Material.Filled.DirectionsRun" Class="nav-link">Daily/Weekly Challenges</MudNavLink>
+            <MudNavLink Href="/referral" Icon="@Icons.Material.Filled.Share" Class="nav-link">Referral System</MudNavLink>
+            <MudNavLink Href="/badges" Icon="@Icons.Material.Filled.Badge" Class="nav-link">Badges & Titles</MudNavLink>
+            <MudNavLink Href="/difficulty" Icon="@Icons.Material.Filled.Straighten" Class="nav-link">Difficulty-Based Bounties</MudNavLink>
+            <MudNavLink Href="/reward-pooling" Icon="@Icons.Material.Filled.Share" Class="nav-link">Reward Pooling</MudNavLink>
+            <MudNavLink Href="/reputation" Icon="@Icons.Material.Filled.Star" Class="nav-link">User Reputation System</MudNavLink>
+        </MudNavMenu>
     </MudDrawer>
-    <MudMainContent Class="mt-16 pa-4">
+
+    <MudMainContent Class="main-content">
         @Body
     </MudMainContent>
+
+    <MudAppBar Elevation="1" Color="Color.Dark" Bottom="true" Class="footer">
+        <MudContainer Class="d-flex justify-center align-center">
+            <MudText Typo="Typo.body2">
+                © 2024 Code Bounty Hunter | All Rights Reserved
+            </MudText>
+        </MudContainer>
+    </MudAppBar>
 </MudLayout>
-
-
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
 
 @code {
     private bool _drawerOpen = true;
 
-    private void DrawerToggle()
+    private MudTheme _theme;
+
+    protected override void OnInitialized()
+    {
+        SetupTheme();
+    }
+
+    private void SetupTheme()
+    {
+        _theme = new MudTheme
+            {
+                PaletteDark = new PaletteDark
+                {
+                    Primary = "#6200EE", // Purple accent color for primary elements
+                    Background = "#121212", // Dark black background
+                    Surface = "#1A1A1A", // Darker surface
+                    AppbarBackground = "#1C1C1C", // Darker app bar background
+                    DrawerBackground = "#1A1A1A", // Same dark surface for the drawer
+                    TextPrimary = "#E0E0E0", // Light gray text for readability
+                    TextSecondary = "#B0B0B0", // Slightly dimmer gray text for secondary content
+                    Divider = "#333333", // Darker dividers
+                    ActionDisabled = "#666666", // Disabled action color
+                },
+                PaletteLight = new PaletteLight
+                {
+                    Primary = "#6200EE",
+                    Background = "#F5F5F5", // Light background (can adjust if needed)
+                    Surface = "#FFFFFF",
+                    AppbarBackground = "#F0F0F0"
+                },
+                Typography = new Typography
+                {
+                    Default = new Default
+                    {
+                        FontFamily = new[] { "Roboto", "Helvetica", "Arial", "sans-serif" }
+                    }
+                }
+            };
+    }
+
+    private void ToggleDrawer()
     {
         _drawerOpen = !_drawerOpen;
     }
-
 }
 
+<style>
+    .main-content {
+        background-color: var(--mud-palette-background);
+        min-height: calc(100vh - 112px); /* Ensures content takes up full screen minus the app bar */
+        padding: 20px;
+        margin-top: 64px; /* Add margin to push content below the app bar */
+        border-radius: 0px; /* Sharp edges */
+    }
 
+    .app-bar {
+        transition: all 0.3s ease;
+    }
+
+    .app-title {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+    }
+
+    .footer {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Styling for nav link card-like effect */
+    .nav-link {
+        position: relative;
+        padding: 8px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 0px; /* Sharp rectangular borders */
+        margin-bottom: 5px;
+        background-color: transparent;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .nav-link:hover {
+            transform: translateX(15px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link .mud-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .nav-link:hover .mud-icon {
+            transform: translateX(5px);
+        }
+
+    /* Special styles for "Submit Bounty" link */
+    .submit-bounty-nav-link {
+        background-color: #FF9800; /* Orange color for visibility */
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 0px; /* Sharp edges */
+        margin-bottom: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .submit-bounty-nav-link:hover {
+            background-color: #FF5722; /* Darker orange on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Prevent clipping when drawer is in mini mode */
+    .mud-drawer .mud-nav-link {
+        transition: none;
+    }
+
+    /* Adjust nav link appearance when drawer is collapsed */
+    .mud-drawer.mud-drawer-mini .nav-link {
+        padding-left: 10px;
+    }
+</style>
