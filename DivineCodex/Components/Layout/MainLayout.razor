@@ -16,13 +16,10 @@
         <MudButton Variant="Variant.Filled" Color="Color.Secondary" Class="new-post-button" OnClick="NavigateToNewPost">
             New Post
         </MudButton>
-
-        <!-- Login/Register Icons -->
-        <div class="auth-icons">
-            <MudIconButton Icon="@Icons.Material.Filled.Login" Color="Color.Inherit" Class="auth-icon login-icon" OnClick="NavigateToLogin" />
-            <MudIconButton Icon="@Icons.Material.Filled.AppRegistration" Color="Color.Inherit" Class="auth-icon register-icon" OnClick="NavigateToRegister" />
-        </div>
-
+        <!-- Login and Register Buttons -->
+        <MudLink Href="account/login" Class="auth-link login-link">Login</MudLink>
+        <MudText> / </MudText>
+        <MudLink Href="account/register" Class="auth-link register-link">Register</MudLink>
         <MudIconButton Icon="@Icons.Material.Filled.Notifications" Color="Color.Inherit" />
         <MudAvatar Icon="@Icons.Material.Filled.AccountCircle" Class="user-avatar" />
     </MudAppBar>
@@ -174,30 +171,39 @@
         color: #fff;
     }
 
-    /* Auth Icons Container */
-    .auth-icons {
-        display: flex;
-        align-items: center;
-        gap: 12px;
+    /* General style for links */
+    .auth-link {
+        font-size: 16px;
+        font-weight: 500;
+        color: #2c3e50; /* Dark blue for professionalism */
+        text-decoration: none;
+        transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+        padding: 4px 8px;
+        border-radius: 6px;
     }
 
-    .auth-icon {
-        font-size: 24px;
-        padding: 10px;
-        border-radius: 50%;
-        color: #4f4f4f;
+        /* Hover effect */
+        .auth-link:hover {
+            color: #fff;
+            background-color: #3498db; /* Light blue on hover */
+            transform: translateY(-2px); /* Slight upward movement */
+            box-shadow: 0px 4px 8px rgba(52, 152, 219, 0.2); /* Subtle shadow for depth */
+        }
+
+    /* For Login Link */
+    .login-link {
+        margin-right: 8px;
     }
 
-        .auth-icon:hover {
-            background-color: #f0f0f0;
-        }
-
-        .auth-icon:active {
-            transform: scale(1);
-        }
-
-    .user-avatar {
+    /* For Register Link */
+    .register-link {
         margin-left: 8px;
+    }
+
+    /* Optional: Text separator style (slash) */
+    .mud-text {
+        font-size: 18px;
+        color: #7f8c8d;
     }
 </style>
 
@@ -214,17 +220,5 @@
     {
         // Navigate to the New Post page
         NavigationManager.NavigateTo("/newpost");
-    }
-
-    void NavigateToLogin()
-    {
-        // Navigate to the Login page
-        NavigationManager.NavigateTo("/Account/login");
-    }
-
-    void NavigateToRegister()
-    {
-        // Navigate to the Register page
-        NavigationManager.NavigateTo("/Account/register");
     }
 }

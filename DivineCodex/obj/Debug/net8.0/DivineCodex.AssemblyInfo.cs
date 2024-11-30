@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DivineCodex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac71e547d1ca04b549ac11e5a6e50dc860241bee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80c869dd9bcc898c5cc6b761143d316bef7ad037")]
 [assembly: System.Reflection.AssemblyProductAttribute("DivineCodex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DivineCodex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
