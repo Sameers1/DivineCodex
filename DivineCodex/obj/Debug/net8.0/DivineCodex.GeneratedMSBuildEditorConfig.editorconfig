@@ -189,6 +189,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/Badges&Titles.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCYWRnZXMmVGl0bGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGF0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -197,8 +205,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/FAQ.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGQVEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/GetStarted.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHZXRTdGFydGVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/Leaderboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZWFkZXJib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/ReferralSystem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWZlcnJhbFN5c3RlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hashi/Documents/DivineCodex/DivineCodex/Components/Pages/Weather.razor]

@@ -28,28 +28,33 @@
         <!-- Main navigation section -->
         <MudNavLink Href="/" Match="NavLinkMatch.All" Class="nav-link">
             <MudIcon Icon="@Icons.Material.Filled.Home" />
-            <span>Home</span>
+            <span>Get Started</span>
         </MudNavLink>
         <MudNavLink Href="/dashboard" Class="nav-link">
-            <MudIcon Icon="@Icons.Material.Filled.Star" />
+            <MudIcon Icon="@Icons.Material.Filled.Dashboard" />
             <span>Dashboard</span>
         </MudNavLink>
         <MudNavLink Href="/leaderboard" Class="nav-link">
             <MudIcon Icon="@Icons.Material.Filled.Leaderboard" />
-            <span>Find Bounty</span>
+            <span>Leaderboard</span>
         </MudNavLink>
         <MudNavLink Href="/chat" Class="nav-link">
             <MudIcon Icon="@Icons.Material.Filled.Chat" />
             <span>Chat</span>
         </MudNavLink>
-        <MudNavLink Href="/referral" Class="nav-link">
-            <MudIcon Icon="@Icons.Material.Filled.GroupAdd" />
-            <span>Referral System</span>
-        </MudNavLink>
-        <MudNavLink Href="/badges" Class="nav-link">
+        <MudNavLink Href="/badgesandTitles" Class="nav-link">
             <MudIcon Icon="@Icons.Material.Filled.EmojiEvents" />
             <span>Badges & Titles</span>
         </MudNavLink>
+        <MudNavLink Href="/referralSystem" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.GroupAdd" />
+            <span>Referral System</span>
+        </MudNavLink>
+        <MudNavLink Href="/faq" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.QuestionAnswer" />
+            <span>FAQ</span>
+        </MudNavLink>
+        
 
         <!-- Admin Panel separated and hidden based on user role -->
         @if (IsAdmin)
@@ -220,5 +225,30 @@
     {
         // Navigate to the New Post page
         NavigationManager.NavigateTo("/newpost");
+    }
+    void NavigateToLeaderboard()
+    {
+        // Navigate to the New Post page
+        NavigationManager.NavigateTo("/leaderboard");
+    }
+    void NavigateToChat()
+    {
+        // Navigate to the New Post page
+        NavigationManager.NavigateTo("/chat");
+    }
+    void NavigateToBadgesandTitles()
+    {
+        // Navigate to the New Post page
+        NavigationManager.NavigateTo("/badgesandTitles");
+    }
+    void NavigateToReferralSystem()
+    {
+        // Navigate to the New Post page
+        NavigationManager.NavigateTo("/referralSystem");
+    }
+    void NavigateToFAQ()
+    {
+        // Navigate to the New Post page
+        NavigationManager.NavigateTo("/faq");
     }
 }
