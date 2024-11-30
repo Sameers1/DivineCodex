@@ -1,0 +1,132 @@
+﻿@page "/dashboard"
+
+
+<MudMainContent Class="main-content">
+    <MudGrid Class="content-grid mt-2" Spacing="1">
+        <!-- Stats Cards -->
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Class="stat-card">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Class="stat-text">Total Revenue</MudText>
+                    <MudText Typo="Typo.h4" Class="stat-number">123</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Class="stat-card">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Class="stat-text">Active Users</MudText>
+                    <MudText Typo="Typo.h4" Class="stat-number">1,520</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+    <MudGrid Class="content-grid mt-2" Spacing="1">
+        <!-- Stats Cards -->
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Class="stat-card">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Class="stat-text">Total Revenue</MudText>
+                    <MudText Typo="Typo.h4" Class="stat-number">32,340</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Class="stat-card">
+                <MudCardContent>
+                    <MudText Typo="Typo.h6" Class="stat-text">Active Users</MudText>
+                    <MudText Typo="Typo.h4" Class="stat-number">3,520</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+
+</MudMainContent>
+
+
+            
+          
+
+@code {
+    private bool drawerOpen = true;
+
+    // Pie chart data
+    public double[] data = { 25, 35, 15, 25 };
+    public string[] labels = { "Sales", "Marketing", "R&D", "Support" };
+
+    // Slider value
+    private double sliderValue = 5;
+}
+
+<style>
+    /* Background and general styling */
+    .main-content {
+        background-color: #303030; /* Dark gray background for the content */
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    /* Styling for the navigation and drawer */
+    .mud-drawer {
+        background-color: #212121; /* Dark background for the drawer */
+    }
+
+    .mud-drawer-header, .mud-navlink, .mud-navlink:hover {
+        color: white;
+    }
+
+    /* Stat card styling */
+    .stat-card {
+        background-color: #424242; /* Dark gray for the cards */
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .stat-text {
+        color: #b0b0b0; /* Lighter gray for text */
+    }
+
+    .stat-number {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    /* Donut chart inner text */
+    .donut-inner-text {
+        font-size: 16px;
+        fill: white;
+    }
+
+    /* Slider styling */
+    .mud-slider .mud-slider-thumb {
+        background-color: #616161; /* Slightly lighter thumb color */
+    }
+
+    .mud-slider .mud-slider-track {
+        background-color: #4e4e4e; /* Darker track color */
+    }
+
+    /* MudButton styling for consistency */
+    .mud-button {
+        background-color: #616161;
+        color: white;
+    }
+
+    .mud-button:hover {
+        background-color: #757575;
+    }
+
+    /* Center grid content */
+    .content-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+</style>

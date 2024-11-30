@@ -3,6 +3,413 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "_content/ChartJs.Blazor/Chart.min.js",
+      "AssetFile": "_content/ChartJs.Blazor/Chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css",
+      "AssetFile": "_content/ChartJs.Blazor/ChartJSBlazor.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js",
+      "AssetFile": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map",
+      "AssetFile": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js",
+      "AssetFile": "_content/ChartJs.Blazor/moment-with-locales.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "336451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/ChartJsBlazorInterop.ts",
+      "AssetFile": "_content/ChartJs.Blazor/ts/ChartJsBlazorInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9YAc/7zqenCGPhUJWk0x0WpSSTRg68AJbixm1HiQn/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YAc/7zqenCGPhUJWk0x0WpSSTRg68AJbixm1HiQn/w="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/ChartJsInterop.ts",
+      "AssetFile": "_content/ChartJs.Blazor/ts/ChartJsInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CKKno5zikvogS+VOyrtlqJDAV7otVJ4H5iJ2XHqA6FQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CKKno5zikvogS+VOyrtlqJDAV7otVJ4H5iJ2XHqA6FQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/MomentJsInterop.ts",
+      "AssetFile": "_content/ChartJs.Blazor/ts/MomentJsInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0my7KUv2Z5NXtY7VknCp/kxTftbjSiXdG1cwcuAsh98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0my7KUv2Z5NXtY7VknCp/kxTftbjSiXdG1cwcuAsh98="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/types/Chart.min.d.ts",
+      "AssetFile": "_content/ChartJs.Blazor/ts/types/Chart.min.d.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AuekiVBNUw2RH02rCPRlUfISK5n0k05W7x6UFjZrfHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AuekiVBNUw2RH02rCPRlUfISK5n0k05W7x6UFjZrfHY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/types/moment.d.ts",
+      "AssetFile": "_content/ChartJs.Blazor/ts/types/moment.d.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jtQvfIEjFGqu1MuI8zJVQg8ljAIA24UzQ/88Pwyar8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jtQvfIEjFGqu1MuI8zJVQg8ljAIA24UzQ/88Pwyar8A="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/tsconfig.json",
+      "AssetFile": "_content/ChartJs.Blazor/tsconfig.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk="
+        }
+      ]
+    },
+    {
       "Route": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
       "AssetFile": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
       "Selectors": [],
