@@ -4,36 +4,168 @@
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
-<MudLayout>
-    <MudAppBar Elevation="1">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
+
+<MudLayout Class="layout-container">
+    <MudAppBar Color="Color.Dark" Elevation="2" Class="appbar">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@DrawerToggle" />
+        <MudText Typo="Typo.h5" Class="appbar-title">DivineCodex</MudText>
         <MudSpacer />
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+        <MudIconButton Icon="@Icons.Material.Filled.Notifications" Color="Color.Inherit" />
+        <MudAvatar Icon="@Icons.Material.Filled.AccountCircle" Class="user-avatar" />
     </MudAppBar>
-    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
-        <NavMenu />
+
+    <MudDrawer @bind-Open="@_drawerOpen" Color="Color.Dark" Class="drawer" Elevation="6">
+        <!-- Main navigation section -->
+        <MudNavLink Href="/" Match="NavLinkMatch.All" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.Home" />
+            <span>Home</span>
+        </MudNavLink>
+        <MudNavLink Href="/bounties" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.Star" />
+            <span>Dashboard</span>
+        </MudNavLink>
+        <MudNavLink Href="/leaderboard" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.Leaderboard" />
+            <span>Find Bounty</span>
+        </MudNavLink>
+        <MudNavLink Href="/chat" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.Chat" />
+            <span>Chat</span>
+        </MudNavLink>
+        <MudNavLink Href="/referral" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.GroupAdd" />
+            <span>Referral System</span>
+        </MudNavLink>
+        <MudNavLink Href="/badges" Class="nav-link">
+            <MudIcon Icon="@Icons.Material.Filled.EmojiEvents" />
+            <span>Badges & Titles</span>
+        </MudNavLink>
+
+        <!-- Admin Panel separated and hidden based on user role -->
+        @if (IsAdmin)
+        {
+            <MudDivider Class="admin-divider" />
+            <MudNavLink Href="/admin" Class="admin-nav-link">
+                <MudIcon Icon="@Icons.Material.Filled.AdminPanelSettings" />
+                <span>Admin Panel</span>
+            </MudNavLink>
+        }
     </MudDrawer>
-    <MudMainContent Class="mt-16 pa-4">
+
+    <MudMainContent Class="main-content">
         @Body
     </MudMainContent>
 </MudLayout>
 
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #121212; /* Full dark background */
+    }
 
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
+    .layout-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* App bar */
+    .appbar {
+        background-color: #2B2B2B;
+        color: #E0E0E0;
+    }
+
+    .appbar-title {
+        font-weight: 600;
+    }
+
+    .user-avatar {
+        margin-left: 8px;
+    }
+
+    /* Drawer */
+    .drawer {
+        background-color: #1F1F1F;
+        color: #E0E0E0;
+    }
+
+    .nav-link {
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+        margin: 4px 8px;
+        transition: all 0.3s ease;
+        color: #B0B0B0;
+        font-size: 14px;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+
+        .nav-link:hover {
+            background-color: #383838;
+            transform: translateX(4px);
+            color: #FFFFFF;
+        }
+
+        .nav-link span {
+            margin-left: 12px;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover span {
+            color: #A0A0FF;
+        }
+
+    /* Admin Panel styling */
+    .admin-nav-link {
+        background-color: #2A2A2A;
+        margin-top: 12px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+        .admin-nav-link:hover {
+            background-color: #444444;
+        }
+
+        .admin-nav-link span {
+            color: #FFD700; /* Gold for Admin section */
+        }
+
+        .admin-nav-link:hover span {
+            color: #FFEB3B;
+        }
+
+    .admin-divider {
+        margin: 10px 0;
+        border-top: 1px solid #333;
+    }
+
+    /* Main content */
+    .main-content {
+        background-color: #121212;
+        color: #CCCCCC;
+        padding: 20px;
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+
+    .mud-nav-link.active {
+        background-color: #3A3A3A;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+</style>
 
 @code {
-    private bool _drawerOpen = true;
+    bool _drawerOpen = true;
+    bool IsAdmin = true; // Adjust based on user role
 
-    private void DrawerToggle()
+    void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
     }
-
 }
-
-

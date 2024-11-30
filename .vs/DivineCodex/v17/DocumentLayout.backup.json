@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\appsettings.json",
+              "RelativeDocumentMoniker": "DivineCodex\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\appsettings.json",
+              "RelativeToolTip": "DivineCodex\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T12:48:42.588Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
