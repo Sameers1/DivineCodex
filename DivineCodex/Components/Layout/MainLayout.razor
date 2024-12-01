@@ -24,6 +24,9 @@
         </MudButton>
 
         <!-- Login and Register Buttons -->
+        <AuthorizeView Roles ="Admin">
+            <MudChip T="string" Icon="@Icons.Custom.Uncategorized.Radioactive" Label="true" Color="Color.Warning" Style="color:black;">You have Admin Powers</MudChip>
+        </AuthorizeView>
         <button class="btn btn-danger" @onclick="Logout">Logout</button>
         <MudLink Href="account/login" Class="auth-link login-link">Login</MudLink>
         <MudText> / </MudText>
