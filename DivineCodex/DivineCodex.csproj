@@ -17,4 +17,9 @@
     <PackageReference Include="Extensions.MudBlazor.StaticInput" Version="2.*" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Data\Application\Migrations\" />
+  </ItemGroup>
+
 </Project>

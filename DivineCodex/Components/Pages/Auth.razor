@@ -2,13 +2,13 @@
 
 @using Microsoft.AspNetCore.Authorization
 
-@attribute [Authorize(Roles = "Admin")]
+@attribute [Authorize]
 
 <PageTitle>Auth</PageTitle>
 
 <MudText>Hello</MudText>
 <MudText Typo="Typo.h3" GutterBottom="true">You are admin authenticated!</MudText>
-<AuthorizeView>
+<AuthorizeView Roles  ="Admin">
     <MudText Class="mb-4">Hello @context.User.Identity?.Name!</MudText>
 
 </AuthorizeView>

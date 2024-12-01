@@ -1,8 +1,10 @@
 using DivineCodex.Components;
 using DivineCodex.Components.Account;
 using DivineCodex.Data;
+using DivineCodex.Data.Identity;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
 
@@ -27,14 +29,19 @@ builder.Services.AddAuthentication(options =>
     })
     .AddIdentityCookies();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var applicationIdentityDbContext = builder.Configuration.GetConnectionString("ApplicationIdentityDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationIdentityDbContext' not found.");
+builder.Services.AddDbContext<ApplicationIdentityDbContext>(options =>
+    options.UseSqlServer(applicationIdentityDbContext));
+
+var applicationDbContextConnectionString = builder.Configuration.GetConnectionString("ApplicationIdentityDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationIdentityDbContext' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseSqlServer(applicationDbContextConnectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
     .AddSignInManager()
     .AddDefaultTokenProviders();
 

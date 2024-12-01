@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\answervote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\answervote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\reputation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\reputation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\migrations\\20241201130438_models1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\migrations\\20241201130438_models1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Migrations\\20241201130334_Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DivineCodex\\Data\\Migrations\\20241201130334_Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,36 +59,8 @@
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\reputation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\reputation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\answervote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\answervote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\models\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\models\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +78,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExternalLogin.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T12:53:50.403Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\appsettings.json",
+              "RelativeDocumentMoniker": "DivineCodex\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\appsettings.json*",
+              "RelativeToolTip": "DivineCodex\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T15:40:02.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "20241201130334_Models.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Migrations\\20241201130334_Models.cs",
+              "RelativeDocumentMoniker": "DivineCodex\\Data\\Migrations\\20241201130334_Models.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Migrations\\20241201130334_Models.cs",
+              "RelativeToolTip": "DivineCodex\\Data\\Migrations\\20241201130334_Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:03:34.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ConfirmEmailChange.razor",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
               "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
@@ -91,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ConfirmEmail.razor",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ConfirmEmail.razor",
               "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\ConfirmEmail.razor",
@@ -103,31 +127,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AnswerVote.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\AnswerVote.cs",
               "RelativeDocumentMoniker": "DivineCodex\\Data\\Models\\AnswerVote.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\AnswerVote.cs",
               "RelativeToolTip": "DivineCodex\\Data\\Models\\AnswerVote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:47:01.289Z"
+              "WhenOpened": "2024-12-01T12:47:01.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Reputation.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\Reputation.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Data\\Models\\Reputation.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\Reputation.cs",
-              "RelativeToolTip": "DivineCodex\\Data\\Models\\Reputation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Reputation.cs",
+              "RelativeDocumentMoniker": "DivineCodex\\Data\\Reputation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Reputation.cs",
+              "RelativeToolTip": "DivineCodex\\Data\\Reputation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T12:46:37.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Badge.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\Badge.cs",
               "RelativeDocumentMoniker": "DivineCodex\\Data\\Models\\Badge.cs",
@@ -135,24 +160,25 @@
               "RelativeToolTip": "DivineCodex\\Data\\Models\\Badge.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:46:23.401Z"
+              "WhenOpened": "2024-12-01T12:46:23.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Answer.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\Answer.cs",
               "RelativeDocumentMoniker": "DivineCodex\\Data\\Models\\Answer.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\Answer.cs",
               "RelativeToolTip": "DivineCodex\\Data\\Models\\Answer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T12:46:08.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\Question.cs",
               "RelativeDocumentMoniker": "DivineCodex\\Data\\Models\\Question.cs",
@@ -160,11 +186,38 @@
               "RelativeToolTip": "DivineCodex\\Data\\Models\\Question.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:45:38.259Z"
+              "WhenOpened": "2024-12-01T12:45:38.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Program.cs",
+              "RelativeDocumentMoniker": "DivineCodex\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Program.cs",
+              "RelativeToolTip": "DivineCodex\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:42:38.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Auth.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Auth.razor*",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\Auth.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T06:53:17.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "DivineCodex\\Data\\Models\\ApplicationUser.cs",
@@ -172,23 +225,36 @@
               "RelativeToolTip": "DivineCodex\\Data\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:43:58.214Z"
+              "WhenOpened": "2024-12-01T12:43:58.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Program.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Program.cs",
-              "RelativeToolTip": "DivineCodex\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Title": "20241201130438_Models1.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Migrations\\20241201130438_Models1.cs",
+              "RelativeDocumentMoniker": "DivineCodex\\Data\\Migrations\\20241201130438_Models1.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Migrations\\20241201130438_Models1.cs",
+              "RelativeToolTip": "DivineCodex\\Data\\Migrations\\20241201130438_Models1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T09:42:38.408Z"
+              "WhenOpened": "2024-12-01T13:04:38.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "ExternalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T12:53:50.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "DivineCodex\\Components\\Layout\\MainLayout.razor",
@@ -197,18 +263,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-01T06:53:26.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Auth.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Auth.razor",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Auth.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Auth.razor",
-              "RelativeToolTip": "DivineCodex\\Components\\Pages\\Auth.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T06:53:17.315Z"
             }
           ]
         }
