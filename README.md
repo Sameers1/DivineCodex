@@ -12,5 +12,12 @@
 
 ```bash
 dotnet ef migrations add MigrationName --context ApplicationDbContext -o ./Data/Application/Migrations
+```
+
+```bash
 dotnet ef database update --context ApplicationIdentityDbContext
+```
+```bash
 dotnet ef database update --context ApplicationDbContext
+```
+
