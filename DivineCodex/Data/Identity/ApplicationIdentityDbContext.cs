@@ -4,8 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DivineCodex.Data.Identity
 {
-    public class ApplicationIdentityDbContext(DbContextOptions<ApplicationIdentityDbContext> options) : IdentityDbContext<ApplicationUser>(options)
+    public class ApplicationIdentityDbContext : IdentityDbContext<ApplicationUser>
     {
-
+        public ApplicationIdentityDbContext(DbContextOptions<ApplicationIdentityDbContext> options)
+            : base(options)
+        {
+        }
     }
 }

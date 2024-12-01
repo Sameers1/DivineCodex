@@ -35,9 +35,9 @@ var applicationIdentityDbContext = builder.Configuration.GetConnectionString("Ap
 builder.Services.AddDbContext<ApplicationIdentityDbContext>(options =>
     options.UseSqlServer(applicationIdentityDbContext));
 
-var applicationDbContextConnectionString = builder.Configuration.GetConnectionString("ApplicationIdentityDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationIdentityDbContext' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(applicationDbContextConnectionString));
+//var applicationDbContextConnectionString = builder.Configuration.GetConnectionString("ApplicationIdentityDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationIdentityDbContext' not found.");
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(applicationDbContextConnectionString));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
