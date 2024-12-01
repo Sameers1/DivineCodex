@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v8.0": {
       "DivineCodex/1.0.0": {
         "dependencies": {
-          "ChartJs.Blazor": "1.1.0",
           "Extensions.MudBlazor.StaticInput": "2.1.5",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.11",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
@@ -52,19 +51,6 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
-          }
-        }
-      },
-      "ChartJs.Blazor/1.1.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.10",
-          "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.1/ChartJs.Blazor.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -421,7 +407,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.SqlClient/5.1.6": {
         "dependencies": {
           "Azure.Identity": "1.11.4",
@@ -771,7 +757,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.35.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.CSharp": "4.5.0",
           "Microsoft.IdentityModel.Logging": "6.35.0",
           "System.Security.Cryptography.Cng": "5.0.0"
         },
@@ -837,14 +823,6 @@
           "lib/net8.0/MudBlazor.dll": {
             "assemblyVersion": "7.15.0.0",
             "fileVersion": "7.15.0.0"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
           }
         }
       },
@@ -1130,13 +1108,6 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
-    "ChartJs.Blazor/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MUGYzS5FSx9r17sPVRlREPWU+1mFtggFaQtGKifQg30I48tx3OEDH3JZd07r+jKwtpN/h89HVUYy3IT2FS8ZEw==",
-      "path": "chartjs.blazor/1.1.0",
-      "hashPath": "chartjs.blazor.1.1.0.nupkg.sha512"
-    },
     "Extensions.MudBlazor.StaticInput/2.1.5": {
       "type": "package",
       "serviceable": true,
@@ -1263,12 +1234,12 @@
       "path": "microsoft.codeanalysis.workspaces.common/4.5.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.7.0": {
+    "Microsoft.CSharp/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/5.1.6": {
       "type": "package",
@@ -1535,13 +1506,6 @@
       "sha512": "sha512-b2+hO7ZTGwsGhu9SoowuNe2ETeF1GzExpg/hIYR++rSh+vy4v/QD0iOsrATWv3LdFJXSgk3d1+XIr5srW3jBiA==",
       "path": "mudblazor/7.15.0",
       "hashPath": "mudblazor.7.15.0.nupkg.sha512"
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

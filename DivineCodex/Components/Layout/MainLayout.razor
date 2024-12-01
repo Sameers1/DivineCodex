@@ -1,6 +1,12 @@
-﻿@inherits LayoutComponentBase
-
+﻿@using DivineCodex.Data
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@inherits LayoutComponentBase
+@inject SignInManager<ApplicationUser> SignInManager
 @inject NavigationManager NavigationManager
+@attribute [Authorize]
+
 
 <MudThemeProvider />
 <MudPopoverProvider />
@@ -13,10 +19,12 @@
         <MudText Typo="Typo.h5" Class="appbar-title">DivineCodex</MudText>
         <MudSpacer />
         <!-- New Post Button -->
-        <MudButton Variant="Variant.Filled" Color="Color.Secondary" Class="new-post-button" OnClick="NavigateToNewPost">
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" Class="new-post-button" >
             New Post
         </MudButton>
+
         <!-- Login and Register Buttons -->
+        <button class="btn btn-danger" @onclick="Logout">Logout</button>
         <MudLink Href="account/login" Class="auth-link login-link">Login</MudLink>
         <MudText> / </MudText>
         <MudLink Href="account/register" Class="auth-link register-link">Register</MudLink>
@@ -55,16 +63,16 @@
             <span>FAQ</span>
         </MudNavLink>
         
+        <AuthorizeView Roles ="Admin">
 
         <!-- Admin Panel separated and hidden based on user role -->
-        @if (IsAdmin)
-        {
             <MudDivider Class="admin-divider" />
             <MudNavLink Href="/admin" Class="admin-nav-link">
                 <MudIcon Icon="@Icons.Material.Filled.AdminPanelSettings" />
                 <span>Admin Panel</span>
             </MudNavLink>
-        }
+        </AuthorizeView>
+
     </MudDrawer>
 
     <MudMainContent Class="main-content">
@@ -214,41 +222,15 @@
 
 @code {
     bool _drawerOpen = true;
-    bool IsAdmin = true; // Adjust based on user role
 
     void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
     }
-
-    void NavigateToNewPost()
+    private async Task Logout()
     {
-        // Navigate to the New Post page
-        NavigationManager.NavigateTo("/newpost");
+        await SignInManager.SignOutAsync();
+        NavigationManager.NavigateTo("/"); // Redirect to the home or login page
     }
-    void NavigateToLeaderboard()
-    {
-        // Navigate to the New Post page
-        NavigationManager.NavigateTo("/leaderboard");
-    }
-    void NavigateToChat()
-    {
-        // Navigate to the New Post page
-        NavigationManager.NavigateTo("/chat");
-    }
-    void NavigateToBadgesandTitles()
-    {
-        // Navigate to the New Post page
-        NavigationManager.NavigateTo("/badgesandTitles");
-    }
-    void NavigateToReferralSystem()
-    {
-        // Navigate to the New Post page
-        NavigationManager.NavigateTo("/referralSystem");
-    }
-    void NavigateToFAQ()
-    {
-        // Navigate to the New Post page
-        NavigationManager.NavigateTo("/faq");
-    }
+    
 }

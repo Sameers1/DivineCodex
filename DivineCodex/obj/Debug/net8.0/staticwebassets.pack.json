@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DivineCodex.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DivineCodex.Microsoft.AspNetCore.StaticWebAssets.props",

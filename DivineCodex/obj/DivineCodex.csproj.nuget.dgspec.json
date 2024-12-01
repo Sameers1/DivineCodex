@@ -50,10 +50,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "ChartJs.Blazor": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
             "Extensions.MudBlazor.StaticInput": {
               "target": "Package",
               "version": "[2.*, )"

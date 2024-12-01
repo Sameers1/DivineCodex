@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n4vfO0vqT3/n0HTo5pT32a5Khhjm2uYSNSuc6xV8CZM=",
+  "Hash": "LNC9JaqSuyZvbms9P+1tS4nexOEYBGzq2IHEwuW1y4w=",
   "Source": "DivineCodex",
   "BasePath": "_content/DivineCodex",
   "Mode": "Default",
@@ -10,226 +10,17 @@
     {
       "Name": "DivineCodex\\wwwroot",
       "Source": "DivineCodex",
-      "ContentRoot": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\wwwroot\\",
       "BasePath": "_content/DivineCodex",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "Chart.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ChartJSBlazor.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ChartJsBlazorInterop.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ChartJsBlazorInterop.js.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "moment-with-locales.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ts/ChartJsBlazorInterop.ts",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ts/ChartJsInterop.ts",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ts/MomentJsInterop.ts",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ts/types/Chart.min.d.ts",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "ts/types/moment.d.ts",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
-      "SourceId": "ChartJs.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
-      "BasePath": "_content/ChartJs.Blazor",
-      "RelativePath": "tsconfig.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
-    },
-    {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
+      "Identity": "C:\\Users\\Administrator\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
       "SourceId": "Extensions.MudBlazor.StaticInput",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Administrator\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\",
       "BasePath": "_content/Extensions.MudBlazor.StaticInput",
       "RelativePath": "NavigationObserver.js",
       "AssetKind": "All",
@@ -240,15 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "gpcwdwqsg2",
+      "Integrity": "rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g=",
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js"
+      "OriginalItemSpec": "C:\\Users\\Administrator\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js"
     },
     {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -259,15 +52,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\hashi\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hashi\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -278,28 +73,227 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "rnojub5shy",
+      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hashi\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\wwwroot\\favicon.ico",
       "SourceId": "DivineCodex",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\wwwroot\\",
       "BasePath": "_content/DivineCodex",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "2jeq8efc6q",
+      "Integrity": "8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Extensions.MudBlazor.StaticInput/NavigationObserver.js",
+      "AssetFile": "C:\\Users\\Administrator\\.nuget\\packages\\extensions.mudblazor.staticinput\\2.1.5\\staticwebassets\\NavigationObserver.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 18:52:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKpItVsvabar2drKSty3wBKczh+BJZ8tXr9UaYa3p9g="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.2jeq8efc6q.ico",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 12:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jeq8efc6q"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 12:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kNQh+LErZHx3sMz237BHWFasAGQ88EWakJrWWYOxTA="
+        }
+      ]
     }
   ]
 }

@@ -158,8 +158,6 @@ C:\Users\Administrator\source\repos\DivineCodex\DivineCodex\obj\Debug\net8.0\ref
 C:\Users\Administrator\source\repos\DivineCodex\DivineCodex\obj\Debug\net8.0\DivineCodex.pdb
 C:\Users\Administrator\source\repos\DivineCodex\DivineCodex\obj\Debug\net8.0\DivineCodex.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\DivineCodex\DivineCodex\obj\Debug\net8.0\ref\DivineCodex.dll
-C:\Users\Administrator\source\repos\DivineCodex\DivineCodex\bin\Debug\net8.0\ChartJs.Blazor.dll
-C:\Users\Administrator\source\repos\DivineCodex\DivineCodex\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\hashi\Documents\DivineCodex\DivineCodex\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\hashi\Documents\DivineCodex\DivineCodex\bin\Debug\net8.0\appsettings.json
 C:\Users\hashi\Documents\DivineCodex\DivineCodex\bin\Debug\net8.0\DivineCodex.staticwebassets.runtime.json
