@@ -11,7 +11,6 @@ namespace DivineCodex.Data.Application.Models
         public int QuestionId { get; set; }  // Foreign Key to Question
         public Question Question { get; set; }
         public string UserId { get; set; }  // Foreign Key to ApplicationUser
-        public ApplicationUser User { get; set; }
     }
 
 }

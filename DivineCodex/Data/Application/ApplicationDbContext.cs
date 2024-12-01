@@ -9,4 +9,6 @@ internal class ApplicationDbContext : DbContext
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     { }
     public DbSet<Question> Questions { get; set; }
+    public DbSet<Badge> Badges { get; set; }
+
 }
