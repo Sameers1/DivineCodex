@@ -2,7 +2,7 @@ using System.Security.Claims;
 using System.Text.Json;
 using DivineCodex.Components.Account.Pages;
 using DivineCodex.Components.Account.Pages.Manage;
-using DivineCodex.Data;
+using DivineCodex.Data.Identity.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;
@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 
-namespace Microsoft.AspNetCore.Routing
+namespace DivineCodex.Components.Account
 {
     internal static class IdentityComponentsEndpointRouteBuilderExtensions
     {

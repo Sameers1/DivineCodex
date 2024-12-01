@@ -1,4 +1,6 @@
-﻿namespace DivineCodex.Data.Application.Models
+﻿using DivineCodex.Data.Identity.Models;
+
+namespace DivineCodex.Data.Application.Models
 {
     public class Question
     {

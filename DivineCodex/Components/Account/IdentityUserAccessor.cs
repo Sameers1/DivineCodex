@@ -1,4 +1,5 @@
 using DivineCodex.Data;
+using DivineCodex.Data.Identity.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace DivineCodex.Components.Account

@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\identity\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\identity\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\identity\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\identity\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\pages\\manage\\externallogins.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\pages\\manage\\externallogins.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\identityuseraccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\identityuseraccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\identityrevalidatingauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\identityrevalidatingauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\identitynoopemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\identitynoopemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\pages\\confirmemailchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\pages\\confirmemailchange.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\application\\models\\applicationuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\application\\models\\applicationuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\data\\application\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\data\\application\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\account\\pages\\manage\\twofactorauthentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\account\\pages\\manage\\twofactorauthentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,141 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Identity\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Data\\Identity\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Identity\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs*",
-              "RelativeToolTip": "DivineCodex\\Data\\Identity\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:41:07.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationIdentityDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Identity\\ApplicationIdentityDbContext.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Data\\Identity\\ApplicationIdentityDbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Identity\\ApplicationIdentityDbContext.cs*",
-              "RelativeToolTip": "DivineCodex\\Data\\Identity\\ApplicationIdentityDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:41:00.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExternalLogins.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor*",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\Pages\\Manage\\ExternalLogins.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T16:40:56.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IdentityNoOpEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\IdentityNoOpEmailSender.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\IdentityNoOpEmailSender.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\IdentityNoOpEmailSender.cs*",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\IdentityNoOpEmailSender.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:40:36.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConfirmEmailChange.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\Pages\\ConfirmEmailChange.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T16:39:17.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Identity\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Data\\Identity\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Identity\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "DivineCodex\\Data\\Identity\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:38:35.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Program.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Program.cs*",
-              "RelativeToolTip": "DivineCodex\\Program.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAawCoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:41:04.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfirmEmail.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ConfirmEmail.razor",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\ConfirmEmail.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\ConfirmEmail.razor*",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\Pages\\ConfirmEmail.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T16:36:41.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Application\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Data\\Application\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Application\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DivineCodex\\Data\\Application\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:30:15.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IdentityRevalidatingAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs*",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\IdentityRevalidatingAuthenticationStateProvider.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:28:42.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ApplicationUser1.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Data\\Application\\Models\\ApplicationUser1.cs",
               "RelativeDocumentMoniker": "DivineCodex\\Data\\Application\\Models\\ApplicationUser1.cs",
@@ -200,20 +30,20 @@
               "RelativeToolTip": "DivineCodex\\Data\\Application\\Models\\ApplicationUser1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:21:08.977Z",
+              "WhenOpened": "2024-12-01T16:46:48.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IdentityUserAccessor.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\IdentityUserAccessor.cs",
-              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\IdentityUserAccessor.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\IdentityUserAccessor.cs*",
-              "RelativeToolTip": "DivineCodex\\Components\\Account\\IdentityUserAccessor.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:36:34.5Z",
+              "DocumentIndex": 1,
+              "Title": "TwoFactorAuthentication.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Account\\Pages\\Manage\\TwoFactorAuthentication.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:45:03.441Z",
               "EditorCaption": ""
             },
             {
