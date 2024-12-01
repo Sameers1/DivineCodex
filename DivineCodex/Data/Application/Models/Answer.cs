@@ -1,4 +1,4 @@
-﻿namespace DivineCodex.Data.Models
+﻿namespace DivineCodex.Data.Application.Models
 {
     public class Answer
     {

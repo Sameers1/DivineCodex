@@ -1,6 +1,7 @@
 using DivineCodex.Components;
 using DivineCodex.Components.Account;
 using DivineCodex.Data;
+using DivineCodex.Data.Application;
 using DivineCodex.Data.Identity;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
