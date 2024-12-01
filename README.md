@@ -10,3 +10,7 @@
 - **Experience-Based Progression**: Unlock more complex bounties and exclusive challenges with higher XP levels.
 - **Community Hub**: Share coding tips and resources to earn XP and badges.
 
+```bash
+dotnet ef migrations add MigrationName --context ApplicationDbContext -o ./Data/Application/Migrations
+dotnet ef database update --context ApplicationIdentityDbContext
+dotnet ef database update --context ApplicationDbContext
