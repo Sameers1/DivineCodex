@@ -1,25 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\",
+  "WorkspaceRootPath": "C:\\Users\\hashi\\Documents\\DivineCodex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\faq.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\faq.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\divinecodex.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\divinecodex.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\pages\\getstarted.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\getstarted.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\getstarted.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\chat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\badges\u0026titles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\badges\u0026titles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\administrator\\source\\repos\\divinecodex\\divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\referralsystem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\referralsystem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\components\\pages\\leaderboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\components\\pages\\leaderboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\divinecodex.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\divinecodex.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|c:\\users\\hashi\\documents\\divinecodex\\divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{40C79C6E-4D23-41A4-AC98-EF86E6DBCF5E}|DivineCodex\\DivineCodex.csproj|solutionrelative:divinecodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,68 +62,131 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DivineCodex",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\DivineCodex.csproj",
-              "RelativeDocumentMoniker": "DivineCodex\\DivineCodex.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\DivineCodex.csproj",
-              "RelativeToolTip": "DivineCodex\\DivineCodex.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-30T16:17:15.976Z",
+              "DocumentIndex": 0,
+              "Title": "FAQ.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\FAQ.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\FAQ.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\FAQ.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\FAQ.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T18:09:12.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "ReferralSystem.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\ReferralSystem.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\ReferralSystem.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\ReferralSystem.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\ReferralSystem.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:56:45.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chat.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Chat.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Chat.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Chat.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\Chat.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:53:54.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Badges\u0026Titles.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Badges\u0026Titles.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Badges\u0026Titles.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Badges\u0026Titles.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\Badges\u0026Titles.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:53:40.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Leaderboard.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Leaderboard.razor",
+              "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Leaderboard.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Leaderboard.razor",
+              "RelativeToolTip": "DivineCodex\\Components\\Pages\\Leaderboard.razor",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv4QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:52:10.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DivineCodex.csproj",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\DivineCodex.csproj",
+              "RelativeDocumentMoniker": "DivineCodex\\DivineCodex.csproj",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\DivineCodex.csproj",
+              "RelativeToolTip": "DivineCodex\\DivineCodex.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T16:17:15.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GetStarted.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\GetStarted.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\GetStarted.razor",
               "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\GetStarted.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\GetStarted.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\GetStarted.razor",
               "RelativeToolTip": "DivineCodex\\Components\\Pages\\GetStarted.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T15:59:00.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Dashboard.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Dashboard.razor",
               "RelativeDocumentMoniker": "DivineCodex\\Components\\Pages\\Dashboard.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Pages\\Dashboard.razor",
               "RelativeToolTip": "DivineCodex\\Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv4QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T14:48:23.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "DivineCodex\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "DivineCodex\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAmwOEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T12:57:45.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\appsettings.json",
               "RelativeDocumentMoniker": "DivineCodex\\appsettings.json",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\DivineCodex\\DivineCodex\\appsettings.json",
+              "ToolTip": "C:\\Users\\hashi\\Documents\\DivineCodex\\DivineCodex\\appsettings.json",
               "RelativeToolTip": "DivineCodex\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T12:48:42.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T12:48:42.588Z"
             }
           ]
         }
