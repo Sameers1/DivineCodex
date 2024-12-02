@@ -1,18 +1,58 @@
-﻿@page "/counter"
+﻿@page "/profile"
+@using DivineCodex.Data.Identity.Models
+@using Microsoft.AspNetCore.Identity
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject UserManager<ApplicationUser> UserManager
+@inject FileUploadService FileUploadService
+@inject NavigationManager NavigationManager
 
-<PageTitle>Counter</PageTitle>
+<h3>Profile Image</h3>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Counter</MudText>
+@if (!string.IsNullOrEmpty(ProfileImagePath))
+{
+    <img src="@ProfileImagePath" alt="Profile Image" class="profile-img" />
+}
+else
+{
+    <p>No profile image uploaded yet.</p>
+}
 
-<MudText Typo="Typo.body1" Class="mb-4">Current count: @currentCount</MudText>
-
-<MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="IncrementCount">Click me</MudButton>
+<InputFile OnChange="HandleFileSelected" />
 
 @code {
-    private int currentCount = 0;
+    private string ProfileImagePath;
 
-    private void IncrementCount()
+    // Method to handle file selection
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
     {
-        currentCount++;
+    // Get the current user
+        var user = await GetCurrentUserAsync();
+        if (user != null && e.File != null)
+        {
+            var path = await FileUploadService.UploadProfileImageAsync(e.File, user.Id);
+            user.ProfileImagePath = path;
+            await UserManager.UpdateAsync(user);
+
+            ProfileImagePath = path;
+            NavigationManager.Refresh();  // Refresh to show updated image
+        }
+    }
+
+    // Method to get the current user from the AuthenticationStateProvider
+    private async Task<ApplicationUser> GetCurrentUserAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = await UserManager.GetUserAsync(authState.User);  // Get user from the current ClaimsPrincipal
+        return user;
+    }
+
+    // OnInitializedAsync method to load the user's profile image path on page load
+    protected override async Task OnInitializedAsync()
+    {
+        var user = await GetCurrentUserAsync();
+        if (user != null)
+        {
+            ProfileImagePath = user.ProfileImagePath;  // Get the current profile image path from the database
+        }
     }
 }
