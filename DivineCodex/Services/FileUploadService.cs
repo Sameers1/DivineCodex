@@ -1,25 +1,42 @@
 ﻿using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Hosting;
+
+// File: FileUploadService.cs
+
 
 public class FileUploadService
 {
-    private readonly IWebHostEnvironment _environment;
+    private readonly IWebHostEnvironment _webHostEnvironment;
 
-    public FileUploadService(IWebHostEnvironment environment)
+    public FileUploadService(IWebHostEnvironment webHostEnvironment)
     {
-        _environment = environment;
+        _webHostEnvironment = webHostEnvironment;
     }
 
     public async Task<string> UploadProfileImageAsync(IBrowserFile file, string userId)
     {
-        var folderPath = Path.Combine(_environment.WebRootPath, "uploads", "profileImages");
-        Directory.CreateDirectory(folderPath);
+        if (file == null)
+        {
+            Console.WriteLine("No file received.");
+            return null;
+        }
 
-        var fileName = $"{userId}_{Path.GetFileName(file.Name)}";
-        var filePath = Path.Combine(folderPath, fileName);
+        var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
+        if (!Directory.Exists(uploadsFolder))
+        {
+            Directory.CreateDirectory(uploadsFolder);
+        }
 
-        using var stream = new FileStream(filePath, FileMode.Create);
-        await file.OpenReadStream(maxAllowedSize: 1024 * 1024 * 2).CopyToAsync(stream); // Limit to 2MB
+        var fileName = $"{userId}_{file.Name}";
+        var filePath = Path.Combine(uploadsFolder, fileName);
 
-        return $"/uploads/profileImages/{fileName}";  // Return relative path
+        using (var fileStream = new FileStream(filePath, FileMode.Create))
+        {
+            await file.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024).CopyToAsync(fileStream);
+        }
+
+        Console.WriteLine($"File saved: {filePath}");
+        return $"/uploads/{fileName}";
     }
+
 }

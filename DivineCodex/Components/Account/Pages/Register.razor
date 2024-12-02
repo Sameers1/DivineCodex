@@ -15,6 +15,7 @@
 @inject ILogger<Register> Logger
 @inject NavigationManager NavigationManager
 @inject IdentityRedirectManager RedirectManager
+@inject FileUploadService FileUploadService  
 
 <PageTitle>Register</PageTitle>
 
@@ -44,6 +45,12 @@
                                         Label="Confirm Password" InputType="InputType.Password" Placeholder="confirm password"
                                         UserAttributes="@(new() { { "autocomplete", "new-password" }, { "aria-required", "true" } } )" />
                 </MudItem>
+
+                <!-- File upload input -->
+                <MudItem md="12">
+                    <InputFile OnChange="HandleFileSelected" />
+                </MudItem>
+
                 <MudItem md="12">
                     <MudStaticButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true" FormAction="FormAction.Submit">Register</MudStaticButton>
                 </MudItem>
@@ -67,6 +74,18 @@
 
     private string? Message => identityErrors is null ? null : $"Error: {string.Join(", ", identityErrors.Select(error => error.Description))}";
 
+    private string? ProfileImagePath { get; set; }
+
+    // Handle file selection
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        if (e.File != null)
+        {
+            var path = await FileUploadService.UploadProfileImageAsync(e.File, Input.Email);
+            ProfileImagePath = path; // Store image path
+        }
+    }
+
     public async Task RegisterUser(EditContext editContext)
     {
         var user = CreateUser();
@@ -74,6 +93,10 @@
         await UserStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
         var emailStore = GetEmailStore();
         await emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+        
+        // Set profile image path if available
+        user.ProfileImagePath = ProfileImagePath;
+
         var result = await UserManager.CreateAsync(user, Input.Password);
 
         if (!result.Succeeded)

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DivineCodex.Data.Identity.Migrations
 {
     [DbContext(typeof(ApplicationIdentityDbContext))]
-    [Migration("20241202100756_ProfileimagepathAdded")]
-    partial class ProfileimagepathAdded
+    [Migration("20241202191342_ReIdentify")]
+    partial class ReIdentify
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
